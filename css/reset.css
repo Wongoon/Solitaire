@@ -1,0 +1,25 @@
+:root{
+    --scard-width: 40px;
+    --scard-height: calc(var(--scard-width) * 1.4);
+    --scard-gap: 0rem;
+}
+@media (min-width: 768px){
+    :root{
+        --scard-width: 70px;
+        --scard-height: calc(var(--scard-width) * 1.445);
+        --scard-gap: 1rem;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+ol, ul{
+    list-style: none;
+}
+html, body{
+    height: 100vh;
+}
